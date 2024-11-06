@@ -1,0 +1,30 @@
+li{
+    list-style-type: none;
+}
+h1{
+    font-size: 40px;
+    color: green;
+    margin-left: 20px;
+   
+}
+.sell{
+ float:left ;
+ margin-left: 1700px;
+margin-top: -60px;
+ 
+}
+.help{
+    float: left;
+    margin-left: 1600px;
+    margin-top: -60px;
+}
+.about{
+    float: left;
+    margin-left: 1500px;
+    margin-top: -60px;
+}
+.news{
+    float: left;
+    margin-left: 1400px;
+    margin-top: -60px;
+}

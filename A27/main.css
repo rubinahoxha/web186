@@ -1,0 +1,32 @@
+.main{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: column; */
+     flex-direction: row; 
+}
+.content{
+    width: 55%;
+}
+.blue{
+    width: 44%;
+    background-color: blue;
+}
+img{
+    width: 250px;
+    height: auto;
+}
+@media  screen and (max-width:767px) {
+    .main{
+        flex-direction: column;
+    }
+    .blue{
+        width: 100%;
+        background-color: blue;
+    }
+    .content{
+        width: 100%;
+        img{
+            width: 397px;
+            height: auto;
+        }
+}

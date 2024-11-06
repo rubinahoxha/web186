@@ -1,0 +1,33 @@
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    /* overflow;visible
+    overflow; hiden
+    overflow;scroll
+    overflow ;auto */
+}
+img{
+    width: 350px;
+    height: 150px;
+}
+.left{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.middle{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    clear: both;
+}
+.right{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+

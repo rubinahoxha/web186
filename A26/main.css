@@ -1,0 +1,29 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+body{
+    background-color: bisque;
+}
+/* @media only screen and (max-width:1023px) {
+    body{
+        background-color:blueviolet;
+    }
+    } */
+
+@media only screen and (max-width:800px){
+body{
+    background-color: lightcoral;
+}
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightblue;
+    }
+    }
+
+@media only screen and (max-width:400px){
+    body{
+        background-color: rgb(237, 241, 180);
+    }
+    }

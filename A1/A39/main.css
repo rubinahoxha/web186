@@ -1,0 +1,23 @@
+.photo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://t3.ftcdn.net/jpg/08/09/31/56/360_F_809315672_YofJWXraEGKYTpOR5Rl0PAAbdmETwj9g.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    height: 30px;
+}

@@ -1,0 +1,24 @@
+.main{
+    background-image: url(https://www.openspace.org/sites/default/files/styles/16x9_1600w/public/SR_JD_Jahnava-Duryea_2020PC-people-taking-it-all-in-ipiwa-trail_UNK_274.jpg?h=379ac7d8&itok=L4fM1Ai5);
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgreen;
+    background-blend-mode: overlay;
+    color: white;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+   
+}
+p{
+    letter-spacing: 5px;
+}
+h1{
+    letter-spacing: 5px;
+}
+button{
+    border-radius: 2%;
+}

@@ -1,0 +1,11 @@
+div{
+    border: 5px solid black;
+    text-align: center;
+}
+.r{
+    border: 0px solid white;
+    text-align: left;
+    background-color: black;
+    color: lightcoral;
+    margin-right: 1650px;
+}

@@ -1,0 +1,40 @@
+div{
+  background-color: white;
+  text-align: center;
+  border-radius: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 1px 9px 7px gray;
+
+}
+
+.divi1{
+    margin-top: 30px;
+    margin-right: 550px;
+    box-shadow: 1px 9px 7px 10px gray;
+    
+}
+
+.divi2{
+    
+    margin-left: 1400px;
+    margin-bottom: 100px;
+    margin-top: -800px;
+    
+}
+
+img{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+.o{
+    color: grey;
+    
+}
+
+
+.spani{
+    font-size: 20px;
+}

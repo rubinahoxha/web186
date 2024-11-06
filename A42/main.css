@@ -1,0 +1,42 @@
+.main{
+    background-image: url("https://i.pinimg.com/736x/98/cf/f7/98cff78858065800d93be637e919b661.jpg");
+    height: 700px;
+    width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    display: flex;
+    align-items: normal;
+ flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+   opacity: 0.8;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+a:link{
+   color: white!important;
+   text-decoration: none;
+}
+a ,p{
+    opacity: 0;
+    transition: .3s ease-in-out;
+    position: relative;
+    top: -100px;
+}
+.main:hover a{
+    opacity: 1;
+    transition: .3s ease-in-out;
+    position: relative;
+    top: -100px;
+}
+.main:hover p{
+    opacity: 1;
+    transition: .3s ease-in-out;
+    position: relative;
+    top: -100px;
+}
+.main:hover h1{
+    position: relative;
+    top: -100px;
+}

@@ -1,0 +1,30 @@
+h1{
+  margin-left: 50px;
+  margin-top: 80px;
+  
+}
+
+.r{
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.location{
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  margin-top: 20px;
+ 
+}
+.email{
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+p{
+  margin-left: 35px;
+}

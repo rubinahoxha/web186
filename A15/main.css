@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Thirri te gjitha paragrafet qe kane emrin paragrafi1,por jo elementet tjera me kete emer */
+p.paragrafi1{
+    color: red;
+}
+
+p, .paragrafi1{
+    color: blue;
+}
+div p{
+    background-color: green;
+}
+div>p{
+    color: white;
+}
+/* Eshte e njejta si me larte */
+div+p{
+    font-size: 30px;
+}
+p~ul{
+    text-transform: uppercase;
+}
+p:first-child{
+    background-color: yellow;
+}
+p:last-child{
+    background-color: blue;
+}
+/* merr paragrafin e 3 */
+p:nth-child(3){
+    color: aqua;
+}
+/* Merr paragrafin cift/even ose tek?odd */
+p:nth-of-type(odd){
+    text-decoration: dashed blue;
+}

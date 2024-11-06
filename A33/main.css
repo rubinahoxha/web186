@@ -1,0 +1,60 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: green;
+}
+P::first-line{
+    background-color: red;
+    color: aqua;
+}
+P::first-letter{
+    background-color: pink;
+    color: black;
+}
+.des::before{
+    content: "before";
+    background-color: blue;
+    color: white;
+    content:"⭐";
+}
+.des::after{
+    content: "after";
+    background-color: green;
+    color: gray;
+    content:"⭐" ;
+}
+.des1::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: purple;
+    display: inline-block;
+}
+.des1::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}
+img{
+    width: 200PX;
+    height: auto;
+    transform: scale(1);
+    transition: 2s ease-in-out;
+
+}
+img:hover{
+    width: 250px;
+    height: auto;
+    transform: scale(2);
+    
+
+}

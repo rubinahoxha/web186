@@ -1,0 +1,23 @@
+table,
+tr,
+td,
+th{
+border: 1px solid black; 
+border-collapse: collapse;
+
+}
+.red{
+    background-color: red;
+}
+.green{
+ background-color: green;
+}
+.bisque{
+    background-color: bisque;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}

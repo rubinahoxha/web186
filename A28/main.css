@@ -1,0 +1,90 @@
+body{
+    overflow: hidden;
+} 
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color:white;
+    padding-left: 50px;
+     padding-right: 50px;
+}
+ul{
+display: flex;
+list-style: none;
+gap: 30px;
+margin-right: 100px;
+
+
+}
+.logo{
+    width: 60%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+.main{
+   width:100%  ;
+   background-color: white; 
+   display: flex;
+}
+.content{
+    background-color: rgb(221, 165, 228);
+    width: 40%;
+    padding: 50px;
+    margin-left: 50px;
+}
+.picture{
+    background-image: url('https://d2kz53n3bzvihv.cloudfront.net/resized/790_395_0_255_255_255/media/gbu0/categoryxxl/image/DesktopHeader-P393_LLA005_LLA008_LLA010_A.jpg.jpeg');
+    background-size: cover;
+    width: 60%;
+    height: 500px;
+    margin-right: 50px;
+   
+}
+.ru{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    text-transform: uppercase;
+
+}
+.h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+.bi{
+    font-size: 20px;
+    background-color:  rgb(221, 165, 228);
+    margin-left: 50px;
+    width: 200px;
+    text-transform: uppercase;
+}
+.main2{
+    display: flex;
+}
+.m{
+    margin-left: 50px;
+    /* padding-top: 40px; */
+    font-size: 40px;
+}
+span{
+    color:  rgb(221, 165, 228);
+}
+.ar{
+    /* margin-left: 600px; */
+    /* margin-top: -220px; */
+    font-size: 14px;
+    line-height: 2em;
+    text-align: justify;
+    padding-top: 40px;
+}
+.rubina{
+    display: flex;
+}

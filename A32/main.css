@@ -1,0 +1,14 @@
+.first{
+    display: flex;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    
+}

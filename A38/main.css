@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .header{
+    width: 100vw;
+    height: 200px;
+    background-color: red;
+}
+.main{
+    height: calc(100vh - 200px);
+    background-color: aqua;
+} */
+ .linear{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#e66465, #9198e5 , #748388); }
+
+    .main{
+        width:400px;
+        height: 500px;
+        margin-top: 20px;
+        border: 1px solid red;
+        /* background-image: url(https://images.squarespace-cdn.com/content/v1/56bf55504c2f85a60a9b9fe5/1456231613139-3KO3N91YNQHPIRMV8KOU/SnowyRangeSunrise.jpg); */
+        background-repeat: no-repeat;
+         background-size: cover; 
+        /* background-size: contain; */
+        background-position: center;
+        background: linear-gradient(
+            90deg,
+            rgba( 2 , 3 , 61 , 0.8)0%,
+            rgba( 0 , 168 , 255 , 0.8)100%
+        ),url(https://images.unsplash.com/photo-1536746803623-cef87080bfc8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5pZ2h0fGVufDB8fDB8fHww);
+        background-size: cover;
+    }
+    :root{
+        --ngjyrah1:#f9f9f93b;
+    }
+    h1{
+        color:var(--ngjyrah1) ;
+    }
